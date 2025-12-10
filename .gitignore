@@ -1,0 +1,23 @@
+# OS and IDE files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv/
+venv/
+
+# Audio content (can be large, users add their own)
+audio_content/*.mp3
+!audio_content/.gitkeep
+
+# System
+*.log
